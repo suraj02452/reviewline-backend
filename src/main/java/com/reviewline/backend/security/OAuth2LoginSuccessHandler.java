@@ -21,7 +21,7 @@ public class OAuth2LoginSuccessHandler implements AuthenticationSuccessHandler {
     private final UserRepository userRepository;
     private final JwtUtil jwtUtil;
 
-    @Value("${app.forntend.url}")
+    @Value("${app.frontend.url}")
     private String frontendUrl;
 
     @Override
